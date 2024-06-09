@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <style>
+        .dropdown:hover .dropdown-menu {
+          display: block;
+          
+        }
+        .dropdown-menu {
+          display: none;
+        }
+       </style> 
+</head>
+<body>
+    <div>
+      <div class="w-2/6 h-[700px] border-solid border-black border-2 rounded-lg m-auto mt-20">
+           <div class="flex m-7 h-1/5 w-auto items-center border-b-2 mt-0 border-black gap-4">
+               <div class="w-14 h-14 relative"><img class="absolute" src="/src/img/logoone.png"></div>
+               <div class="flex flex-col">
+                <div><h1 class="text-2xl font-black">Account Setup</h1></div>
+                <div>complete simple steps to get started</div>
+               </div>
+           </div>
+           <!-- this is where the requared information container is located, It will have
+           a collapsible possibly controlled by javascript -->
+           <div class="">
+              <div class="container w-auto h-11 m-7 flex gap-4">
+                <div class="flex items-center justify-center w-11 h-11 border-solid border-2 rounded-full "><img class="w-6 h-6" src="/src/img/contact.svg" alt=""></div>
+                <div class="w-96">
+                    <h1 class="font-semibold">Required Information</h1>
+                    <p>Provide required information</p>
+                </div>
+                <div class="w-32 flex justify-center items-center">
+                    <div class="bg-yellow-300  h-7 w-24 border-yellow-600 rounded-2xl border-2">
+                       <p class="text-center">In Progress</p>
+                    </div>
+                </div>
+                <div class="flex justify-center items-center">
+                    <div class="flex justify-center items-center w-7 h-7 rounded-full bg-black"><img class="w-4 h-4" src="/src/img/arrow-down-338-svgrepo-com.svg" alt=""></div>
+                </div>
+                   
+              </div>
+              <div class=" h-72 w-80">
+              <div class="bg-red-900 ml-20 mr-9 h-96 border-solid border-black border-2  rounded-lg ">
+                <form class="flex flex-col ">
+                    <div class="container flex h-14 w-96  items-center justify-evenly">
+                        <img class="ml-2 w-7 h-7"  src="/src/img/user-03.svg">
+                        <label for="name" class="w-32">Full Name</label>
+                        <input type="text" id="name" class="border-solid border-2 hover:bg-gray-500">
+                    </div>
+                    <div class="container flex h-14 w-96  items-center justify-evenly">
+                        <img class="ml-2 w-7 h-7"  src="/src/img/phone.svg">
+                        <label for="phone" class="w-32 ">Phone</label>
+                        <input type="tel" id="phone" class="border-solid border-2 hover:bg-gray-500">
+                    </div>
+                    <div class="container flex h-14 w-96  items-center justify-evenly">
+                        <img class="ml-2 w-7 h-7"  src="/src/img/birthday.svg">
+                        <label for="birth" class="w-32">Date of birth</label>
+                        <input type="" id="birth" class="border-solid border-2  hover:bg-gray-500">
+                    </div>
+                    <div class="container flex h-14 w-96  items-center justify-evenly">
+                        <img class="ml-2 w-7 h-7"  src="/src/img/address.svg">
+                        <label for="occupation" class="w-32">Occupation</label>
+                        <input type="text" id="occupation" class="border-solid border-2 hover:bg-gray-500">
+                    </div>
+                    <div class="container flex h-14 w-96  items-center justify-evenly">
+                        <img class="ml-2 w-7 h-7"  src="/src/img/email.svg">
+                        <label for="email" class="w-32">Email</label>
+                        <input type="email" id="email" class="border-solid border-2 hover:bg-gray-500">
+                    </div>
+                    <div class="container flex h-14 w-96  items-center justify-evenly">
+                        <img class="ml-2 w-7 h-7"  src="/src/img/address.svg">
+                        <label for="address" class="w-32">Address</label>
+                        <input type="text" id="address" class="border-solid border-2 hover:bg-gray-500">
+                    </div>
+                </form>
+              </div>
+              </div>
+           </div>
+      </div>
+    </div>
+</body>
+</html>

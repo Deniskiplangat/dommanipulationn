@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>fetch starting point</h1>
+    <form>
+        <label for="verse-choose">Choose a verse</label>
+        <select name="verse-choose" id="verse-choose">
+            <option value="">one</option>
+            <option value="">two</option>
+            <option value="">three</option>
+            <option value="">four</option>
+        </select>
+        
+    </form>
+
+    <h2>The Conqueror Worm, <em>Edgar Allen Poe, 1843</em></h2>
+
+    <pre>
+
+    </pre>
+
+    <script>
+       const verseChoose = document.querySelector('select')
+       const poemDisplay = document.querySelector('pre')
+       
+
+       verseChoose.addEventListener('change',()=>{
+        
+       })
+
+       function updateDisplay(verse) {
+            fetch('verse1.txt').then( console.log('hello'))
+               
+            
+          }
+
+    </script>
+
+
+</body>
+</html>

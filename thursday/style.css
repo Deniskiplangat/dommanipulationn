@@ -1,0 +1,21 @@
+body{
+display: flex;
+justify-content: center;
+justify-items: center;
+align-items: centers;
+}
+.shape{
+    margin-top: 500x;
+    height: 500px;
+    width: 100px;
+    background-color: black;
+}
+.button{
+    background-color: blueviolet;
+    width: 200px;
+    border: none;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
